@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Header() {
   const [toggle, showMenu] = useState(false);
@@ -10,19 +10,19 @@ function Header() {
       <header className="header">
         <nav className="nav container">
           <a href="/" className="nav__logo">
-            KUHTA
+            <div className="nav__logo-img"></div>
           </a>
           <div className={toggle ? "nav__menu show_menu" : "nav__menu"}>
             <ul className="nav__list grid">
               <li className="nav__item">
-                <Link to="/" className="nav__link active-link">
+                <a href="/" className="nav__link active-link">
                   <i className="uil uil-estate nav__icon "></i> Home
-                </Link>
+                </a>
               </li>
               <li className="nav__item">
-                <Link to="/about" className="nav__link">
+                <a href="/about" className="nav__link">
                   <i className="uil uil-user nav__icon"></i> About
-                </Link>
+                </a>
               </li>
               <li className="nav__item">
                 <a href="/" className="nav__link">
@@ -41,7 +41,7 @@ function Header() {
               </li>
               <li className="nav__item">
                 <a href="#contact" className="nav__link-contact">
-                  <i className="uil uil-message nav__icon"></i> Contact Me
+                  <i className="uil uil-message nav__icon"></i> Contact
                 </a>
               </li>
             </ul>

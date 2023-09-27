@@ -5,8 +5,7 @@ header {
   left: 0;
   z-index: var(--z-fixed);
   /* background-color: var(--container-color); */
-  /* background-color: var(--body-color); */
-  background-color: #d4f5f5;
+  background-color: var(--body-color);
 }
 
 .nav {
@@ -21,6 +20,15 @@ header {
 .nav__toggle {
   color: var(--title-color-dark);
   font-weight: var(--font-medium);
+}
+
+.nav__logo-img {
+  background-image: url(../../../public/images/logo-2-transparent.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 4rem;
+  width: 7rem;
 }
 
 .nav__list {
@@ -78,8 +86,7 @@ header {
     bottom: -100%;
     left: 0;
     width: 100%;
-    /* background-color: var(--body-color); */
-    background-color: #d4f5f5;
+    background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -123,6 +130,11 @@ header {
   .nav__toggle {
     font-size: 1.3rem;
     cursor: pointer;
+  }
+
+  .nav__logo-img {
+    height: 3rem;
+    width: 5rem;
   }
 }
 
