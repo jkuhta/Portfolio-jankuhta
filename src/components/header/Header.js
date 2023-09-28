@@ -31,12 +31,12 @@ function Header() {
               </li>
               <li className="nav__item">
                 <a href="/" className="nav__link">
-                  <i className="uil uil-briefcase nav__icon"></i> Work
+                  <i className="uil uil-briefcase nav__icon"></i> Qualification
                 </a>
               </li>
               <li className="nav__item">
                 <a href="/" className="nav__link">
-                  <i className="uil uil-book nav__icon"></i> Education
+                  <i className="uil uil-water nav__icon"></i> Interests
                 </a>
               </li>
               <li className="nav__item">

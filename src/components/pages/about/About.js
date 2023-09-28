@@ -21,7 +21,7 @@ function About() {
             </p>
             <a download="" href={CV} className="button button--flex">
               Download CV{" "}
-              <i class="uil uil-file-download-alt button__cv-icon"></i>
+              <i className="uil uil-file-download-alt button__cv-icon"></i>
             </a>
           </div>
         </div>

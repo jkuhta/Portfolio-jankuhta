@@ -3,6 +3,11 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/pages/home/Home";
 import About from "./components/pages/about/About";
+import Skills from "./components/pages/skills/Skills";
+import Services from "./components/pages/services/Services";
+import Qualification from "./components/pages/qualification/Qualification";
+import Interests from "./components/pages/interests/Interests";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,7 +23,12 @@ function App() {
       <main className="main">
         <Home></Home>
         <About></About>
+        <Skills></Skills>
+        <Services />
+        <Qualification />
+        <Interests />
       </main>
+      <Footer />
     </>
   );
 }

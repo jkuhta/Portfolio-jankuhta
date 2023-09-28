@@ -46,8 +46,9 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
+  /* padding: 0 4rem 0 0; */
   margin-bottom: var(--mb-2-5);
+  text-align: justify;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -95,5 +96,8 @@
   .about__info {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+  .about__icon {
+    display: none;
   }
 }
