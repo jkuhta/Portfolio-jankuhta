@@ -30,6 +30,10 @@
   padding: 1rem 1.25rem;
 }
 
+.about__box:hover {
+  background-color: aliceblue;
+}
+
 .about__icon {
   font-size: 1.5rem;
   color: var(--title-color);
@@ -49,6 +53,11 @@
   /* padding: 0 4rem 0 0; */
   margin-bottom: var(--mb-2-5);
   text-align: justify;
+}
+
+.button__cv {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -78,6 +87,11 @@
   .about__description {
     padding: 0 5rem;
     margin-bottom: 2rem;
+  }
+
+  .button__cv {
+    display: flex;
+    justify-content: center;
   }
 }
 

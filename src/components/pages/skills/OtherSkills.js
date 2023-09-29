@@ -5,6 +5,7 @@ const OtherSkills = () => {
   const skillsData = [
     { name: "C", level: "Intermediate" },
     { name: "C++", level: "Basic" },
+    { name: "Docker", level: "Basic" },
     { name: "Jira", level: "Intermediate" },
   ];
   return (

@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   const footerLinks = [
     {
-      href: "About",
+      href: "#about",
       name: "About",
     },
     {
@@ -18,19 +18,19 @@ const Footer = () => {
   ];
   const socialLinks = [
     {
-      url: "https://www.instagram.com",
+      url: "https://www.instagram.com/jankuhta",
       iconClass: "bx bxl-instagram",
     },
     {
-      url: "https://facebook.com",
+      url: "https://facebook.com/jan.kuhta",
       iconClass: "bx bxl-facebook",
     },
     {
-      url: "https://github.com",
+      url: "https://github.com/jkuhta",
       iconClass: "bx bxl-github",
     },
     {
-      url: "https://www.linkedin.com",
+      url: "https://si.linkedin.com/in/jan-kuhta",
       iconClass: "bx bxl-linkedin",
     },
   ];
@@ -43,7 +43,7 @@ const Footer = () => {
           <ul className="footer__list">
             {footerLinks.map((link, index) => (
               <li key={index}>
-                <a href={`#${link.href}`} className="footer__link">
+                <a href={`${link.href}`} className="footer__link">
                   {link.name}
                 </a>
               </li>
@@ -55,7 +55,7 @@ const Footer = () => {
                 key={index}
                 href={link.url}
                 className="footer__social-link"
-                target="_blank"
+                target="blank"
                 rel="noopener noreferrer"
               >
                 <i className={link.iconClass}></i>
