@@ -1,0 +1,132 @@
+.interest__container {
+  width: 1000px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  justify-content: center;
+}
+
+.interest__content {
+  background-color: var(--container-color);
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+}
+
+.interest__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: center;
+  padding: 1rem;
+}
+
+.interest__slider {
+  width: 350px;
+  height: 250px;
+}
+
+.interest__swiper-pic-warp {
+  position: relative;
+  width: 100%;
+}
+
+.interest__icon {
+  margin-right: 3px;
+  font-size: 1.2rem;
+}
+.interest__subtitle {
+  display: grid;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.interest__subtitle-text {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-normal);
+}
+
+.interest__swiper-img {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 180px;
+  max-width: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.interest__swiper-data {
+  display: grid;
+  justify-items: center;
+}
+
+/* SWIPER CLASS */
+.swiper-pagination-bullet {
+  background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--title-color) !important;
+}
+.swiper-button-prev {
+  color: var(--text-color) !important;
+  margin-top: 0 !important;
+  top: auto !important;
+  bottom: 1rem !important;
+  padding: 20px !important;
+}
+
+.swiper-button-next {
+  color: var(--text-color) !important;
+  margin-top: 0 !important;
+  top: auto !important;
+  padding: 20px !important;
+  bottom: 1rem !important;
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 1150px) {
+  .interest__container {
+    width: 750px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .interest__container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .interest__container {
+    grid-template-columns: max-content;
+    justify-items: center;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .interest__container {
+    grid-template-columns: max-content;
+    justify-items: center;
+    width: 400px;
+  }
+}
+/* For small devices */
+@media screen and (max-width: 400px) {
+  .interest__container {
+    width: 300px;
+
+    grid-template-columns: 1fr;
+  }
+  .interest__box {
+    column-gap: 1.25rem;
+  }
+}
