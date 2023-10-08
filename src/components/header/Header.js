@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Header.css";
+import ProgressBar from "./ProgressBar";
 // import { Link } from "react-router-dom";
 
 function Header() {
   // CHANGE BACKGROUND HEADER
+
   window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header");
     if (this.scrollY >= 80) header.classList.add("scroll-header");
@@ -11,7 +13,7 @@ function Header() {
   });
   const [toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
-
+  console.log(document.documentElement.scrollHeight);
   const headerItems = [
     {
       href: "#home",
@@ -79,6 +81,8 @@ function Header() {
             <i className="uil uil-bars"></i>
           </div>
         </nav>
+
+        <ProgressBar />
       </header>
     </>
   );

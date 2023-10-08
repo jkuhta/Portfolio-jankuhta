@@ -72,6 +72,23 @@ header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
+.progress-bar-light {
+  display: inline-block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: var(--text-color-light);
+  left: 0;
+}
+.progress-bar-dark {
+  display: inline-block;
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: var(--text-color);
+  left: 0;
+}
+
 /*=============== BREAKPOINTS ===============*/
 
 /* For medium devices */
