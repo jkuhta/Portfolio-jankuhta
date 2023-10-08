@@ -19,7 +19,6 @@ const Testimonials = () => {
           loop={true}
           grabCursor={true}
           spaceBetween={24}
-          navigation={true}
           pagination={{
             clickable: true,
           }}
