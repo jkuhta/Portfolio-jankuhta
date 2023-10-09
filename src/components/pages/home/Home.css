@@ -46,7 +46,7 @@
 }
 
 .home__social-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: 0.3s;
   color: var(--title-color);
 }
@@ -173,6 +173,10 @@
 
   .home__scroll {
     display: none;
+  }
+
+  .home__social-icon {
+    font-size: 1.5rem;
   }
 }
 
