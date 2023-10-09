@@ -19,43 +19,40 @@ const Interests = () => {
           {interestItems.map((item) => (
             <div className="interest__content" key={item.id}>
               <h3 className="interest__title">
-                {" "}
                 <i className={`${item.icon} interest__icon`}></i>
                 {item.title}
               </h3>
               <div className="interest__box">
-                <div>
-                  <Swiper
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    loop={true}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="interest__slider"
-                  >
-                    {item.subItems.map((subItem, subIndex) => {
-                      return (
-                        <SwiperSlide key={subIndex}>
-                          <figure className="interest__swiper-pic-warp">
-                            <img
-                              className="interest__swiper-img"
-                              src={subItem.image}
-                              alt=""
-                            />
-                          </figure>
-                          <div className="interest__subtitle">
-                            <h5 className="interest__subtitle-text">
-                              {subItem.subtitle}
-                            </h5>
-                          </div>
-                        </SwiperSlide>
-                      );
-                    })}
-                  </Swiper>
-                </div>
+                <Swiper
+                  slidesPerView={1}
+                  spaceBetween={30}
+                  loop={true}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  navigation={true}
+                  modules={[Pagination, Navigation]}
+                  className="interest__slider"
+                >
+                  {item.subItems.map((subItem, subIndex) => {
+                    return (
+                      <SwiperSlide key={subIndex}>
+                        <figure className="interest__swiper-pic-warp">
+                          <img
+                            className="interest__swiper-img"
+                            src={subItem.image}
+                            alt=""
+                          />
+                        </figure>
+                        <div className="interest__subtitle">
+                          <h5 className="interest__subtitle-text">
+                            {subItem.subtitle}
+                          </h5>
+                        </div>
+                      </SwiperSlide>
+                    );
+                  })}
+                </Swiper>
               </div>
             </div>
           ))}

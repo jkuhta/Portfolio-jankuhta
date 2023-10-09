@@ -1,6 +1,5 @@
 .interest__container {
-  width: 1000px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 350px);
   column-gap: 3rem;
   justify-content: center;
 }
@@ -9,6 +8,7 @@
   background-color: var(--container-color);
   border: 1px solid rgb(0, 0, 0, 0.1);
   border-radius: 1.25rem;
+  width: 350px;
 }
 
 .interest__title {
@@ -91,15 +91,8 @@
 
 @media screen and (max-width: 1150px) {
   .interest__container {
-    width: 750px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 350px);
     row-gap: 2rem;
-  }
-}
-/* For large devices */
-@media screen and (max-width: 992px) {
-  .interest__container {
-    grid-template-columns: repeat(2, auto);
   }
 }
 
@@ -107,25 +100,15 @@
 @media screen and (max-width: 768px) {
   .interest__container {
     grid-template-columns: max-content;
-    justify-items: center;
-    width: 500px;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .interest__container {
-    grid-template-columns: max-content;
-    justify-items: center;
-    width: 400px;
-  }
-}
 /* For small devices */
 @media screen and (max-width: 400px) {
   .interest__container {
-    width: 300px;
-
-    grid-template-columns: 1fr;
+    zoom: 0.8;
   }
+
   .interest__box {
     column-gap: 1.25rem;
   }
