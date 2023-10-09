@@ -15,7 +15,7 @@ const Interests = () => {
             <div className="interest__content" key={item.id}>
               <h3 className="interest__title">
                 <i className={`${item.icon} interest__icon`}></i>
-                {item.title}
+                <span className="interest__title-text">{item.title}</span>
               </h3>
               <div className="interest__box">
                 <InterestSwiper item={item} />
