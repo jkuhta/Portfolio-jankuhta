@@ -28,13 +28,13 @@ function App() {
       <main className="main">
         <Tba />
         {/* <Home></Home>
-        <About></About>
-        <Skills></Skills>
-        <Services />
-        <Projects />
-        <Qualification />
-        <Interests />
-        <Testimonials />
+        // <About></About>
+        // <Skills></Skills>
+        // <Services />
+        // <Projects />
+        // <Qualification />
+        // <Interests />
+        // <Testimonials />
         <Contact /> */}
       </main>
       <Footer />
