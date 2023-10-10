@@ -119,7 +119,7 @@ header {
     bottom: 0px;
   }
 
-  #interests {
+  .header #interests {
     display: none;
   }
 
