@@ -23,11 +23,11 @@ header {
 }
 
 .nav__logo-img {
-  background-image: url(../../../public/images/logo-2-transparent.png);
+  background-image: url(../../../public/images/logo5.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 4rem;
+  height: 4.5rem;
   width: 7rem;
 }
 
