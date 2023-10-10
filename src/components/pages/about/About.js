@@ -15,9 +15,11 @@ function About() {
           <div className="about__data">
             <Info />
             <p className="about__description">
-              Computer Science Student, I am interested in Data Science,
-              Compuuter Vision and Web Developement, I have work experience as
-              QA Engineer and I am eager to gain new knowledge.
+              As a Computer Science student with a diverse skill set, I'm eager
+              to explore fields of Data Science, Computer Vision and Web
+              Development. Coming from a QA Engineering background, I bring a
+              sharp eye for detail and a commitment to quality. I'm enthusiastic
+              about expanding my knowledge in these fields.
             </p>
             <div className="button__cv">
               <a download="" href={CV} className="button button--flex">

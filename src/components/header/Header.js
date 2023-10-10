@@ -36,9 +36,15 @@ function Header() {
       name: "Qualification",
     },
     {
+      href: "#projects",
+      icon: "check-circle",
+      name: "Projects",
+    },
+    {
       href: "#interests",
       icon: "water",
       name: "Interests",
+      id: "interests",
     },
     {
       href: "#contact",
@@ -56,7 +62,7 @@ function Header() {
           <div className={toggle ? "nav__menu show_menu" : "nav__menu"}>
             <ul className="nav__list grid">
               {headerItems.map((item, index) => (
-                <li className="nav__item" key={index}>
+                <li className="nav__item" id={item.id} key={index}>
                   <a
                     href={item.href}
                     onClick={() => setActiveNav(item.href)}

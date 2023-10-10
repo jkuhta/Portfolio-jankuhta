@@ -4,10 +4,10 @@ import Header from "./components/header/Header";
 import Home from "./components/pages/home/Home";
 import About from "./components/pages/about/About";
 import Skills from "./components/pages/skills/Skills";
-import Services from "./components/pages/services/Services";
+// import Services from "./components/pages/services/Services";
 import Qualification from "./components/pages/qualification/Qualification";
 import Interests from "./components/pages/interests/Interests";
-import Testimonials from "./components/pages/testimonials/Testimonials";
+// import Testimonials from "./components/pages/testimonials/Testimonials";
 import Contact from "./components/pages/contact/Contact";
 import Projects from "./components/pages/projects/Projects";
 import Footer from "./components/footer/Footer";
@@ -30,11 +30,11 @@ function App() {
         <Home></Home>
         <About></About>
         <Skills></Skills>
-        <Services />
-        <Projects />
+        {/* <Services /> */}
         <Qualification />
+        <Projects />
         <Interests />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />

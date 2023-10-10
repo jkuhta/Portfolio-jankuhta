@@ -3,9 +3,9 @@ import Image2 from "../../../assets/interest-action.jpeg";
 import img_basketball from "../../../assets/basketball.jpeg";
 import img_dslr from "../../../assets/dslr.jpeg";
 import img_guitar from "../../../assets/guitar.webp";
-import img_kite from "../../../assets/kitesurfing.avif";
+import img_kite from "../../../assets/kitesurfing.jpg";
 import img_piano from "../../../assets/piano.webp";
-import img_snow from "../../../assets/snowboarding.avif";
+import img_snow from "../../../assets/snowboarding.jpeg";
 
 export const interestItems = [
   {

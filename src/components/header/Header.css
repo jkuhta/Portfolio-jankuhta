@@ -119,6 +119,10 @@ header {
     bottom: 0px;
   }
 
+  #interests {
+    display: none;
+  }
+
   .nav__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -154,8 +158,8 @@ header {
   }
 
   .nav__logo-img {
-    height: 3rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 4.5rem;
   }
 }
 
