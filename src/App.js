@@ -12,6 +12,7 @@ import Scrollup from "./components/scrollup/Scrollup";
 import Testimonials from "./components/pages/testimonials/Testimonials";
 import Contact from "./components/pages/contact/Contact";
 import Projects from "./components/pages/projects/Projects";
+import Tba from "./components/pages/tba/Tba";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       </Router> */}
       <Header />
       <main className="main">
-        <Home></Home>
+        <Tba />
+        {/* <Home></Home>
         <About></About>
         <Skills></Skills>
         <Services />
@@ -33,7 +35,7 @@ function App() {
         <Qualification />
         <Interests />
         <Testimonials />
-        <Contact />
+        <Contact /> */}
       </main>
       <Footer />
       <Scrollup />
