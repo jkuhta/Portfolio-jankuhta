@@ -229,24 +229,38 @@
   .project__swiper {
     width: 900px;
   }
+
+  .project__content {
+    width: 220px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .project__swiper {
     margin-left: 0;
     margin-right: 0;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 300px;
+  }
+
+  .project__content {
+    width: 260px;
+    height: 300px;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .project__content {
+    width: 200px;
+    height: 300px;
+  }
+
   .project__swiper {
     margin-left: 0;
-    margin-right: 0;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    width: 300px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 240px;
   }
 }
