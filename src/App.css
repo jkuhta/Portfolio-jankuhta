@@ -96,6 +96,8 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  background-image: url(assets/Untitled\ design.png);
+  background-position: center;
 }
 
 h1,
@@ -125,8 +127,10 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+
 .section {
   padding: 6rem 0 2rem;
+  opacity: 1;
 }
 
 .section__title {
@@ -150,6 +154,7 @@ img {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
+  opacity: 1;
 }
 
 .grid {
