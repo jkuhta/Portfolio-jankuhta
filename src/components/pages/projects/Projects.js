@@ -20,7 +20,7 @@ const Projects = () => {
           <Swiper
             className="project__swiper"
             slidesPerView={1}
-            spaceBetween={20}
+            spaceBetween={50}
             loop={false}
             grabCursor={true}
             navigation={true}
@@ -30,15 +30,15 @@ const Projects = () => {
             breakpoints={{
               0: {
                 slidesPerView: 1,
-                spaceBetween: 20,
+                spaceBetween: 50,
               },
-              500: {
+              576: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 50,
               },
-              800: {
+              768: {
                 slidesPerView: 3,
-                spaceBetween: 20,
+                spaceBetween: 35,
               },
             }}
             modules={[Navigation, Pagination]}
