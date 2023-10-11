@@ -126,12 +126,6 @@
   margin-right: 2.5rem;
 }
 
-.project__modal-service {
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
-}
-
 .project__modal-icon {
   color: var(--title-color);
   font-size: 1.1rem;
@@ -258,6 +252,64 @@
   .project__content {
     width: 260px;
     height: 300px;
+  }
+  .project__modal-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .project__modal-description {
+    font-size: var(--small-font-size);
+    padding: 0 0.5rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .project__modal-project {
+    row-gap: 0.75rem;
+    margin-right: 0rem;
+  }
+
+  .project__modal-links {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    margin-right: 0;
+  }
+
+  .project__link-icon {
+    display: inline;
+    font-size: 2rem;
+    transition: 0.3s;
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .project__link-icon:hover {
+    /* font-size: 1.6rem; */
+    transition: 0.3s;
+    transform: scale(1.2);
+    color: var(--title-color-dark);
+  }
+
+  .project__modal-labels {
+    display: flex;
+    flex-wrap: wrap; /* Allow labels to wrap to the next line if they don't fit */
+    justify-content: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .project__modal-label {
+    display: inline;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset;
+    padding: 0rem 0.9rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    background-color: var(--text-color-light);
+    white-space: nowrap;
   }
 }
 
