@@ -55,6 +55,13 @@
   font-size: var(--smaller-font-size);
 }
 
+.footer__logo-img {
+  margin: auto;
+  display: grid;
+  width: 250px;
+  padding-bottom: 1rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -62,5 +69,14 @@
     padding: 0.25rem;
     border-radius: 0.25rem;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__logo-img {
+    margin: auto;
+    display: grid;
+    width: 200px;
+    padding-bottom: 1rem;
   }
 }

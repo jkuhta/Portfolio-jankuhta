@@ -1,6 +1,7 @@
 .project__container {
   justify-content: center;
-  width: 1050px;
+  justify-items: center;
+  width: 90%;
   display: flex;
 }
 
@@ -19,6 +20,7 @@
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
+  width: 95%;
 }
 
 .project__slide {
@@ -222,52 +224,29 @@
   right: 0 !important;
   transform: scale(1.2) !important;
 }
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+
 @media screen and (max-width: 992px) {
-  .project__container {
-    width: 800px;
-  }
-
-  .project__content {
-    width: 250px;
-    height: 280px;
+  .project__swiper {
+    width: 900px;
   }
 }
 
-/* For medium devices */
-@media screen and (max-width: 768px) {
-  .project__container {
-    width: 700px;
-  }
-
-  .project__content {
-    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
-    width: 200px;
-    height: 220px;
-  }
-
-  .project__icon {
-    font-size: 1.5rem;
+@media screen and (max-width: 600px) {
+  .project__swiper {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 300px;
   }
 }
 
-@media screen and (max-width: 576px) {
-  .project__modal-content {
-    padding: 4.5rem 1.5rem 2.5rem;
-  }
-  .project__modal-description {
-    padding: 0;
-  }
-}
-
-/* For small devices */
-@media screen and (max-width: 350px) {
-  .project__container {
-    grid-template-columns: max-content;
-  }
-
-  .project__content {
-    padding-right: 6rem;
+@media screen and (max-width: 400px) {
+  .project__swiper {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 300px;
   }
 }

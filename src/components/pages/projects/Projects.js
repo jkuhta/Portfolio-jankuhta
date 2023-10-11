@@ -19,8 +19,8 @@ const Projects = () => {
         <div className="project__container container grid">
           <Swiper
             className="project__swiper"
-            slidesPerView={3}
-            spaceBetween={0}
+            slidesPerView={1}
+            spaceBetween={20}
             loop={false}
             grabCursor={true}
             navigation={true}
@@ -28,12 +28,17 @@ const Projects = () => {
               clickable: true,
             }}
             breakpoints={{
-              576: {
-                slidesPerView: 3,
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 20,
               },
-              768: {
+              500: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              800: {
                 slidesPerView: 3,
-                spaceBetween: 48,
+                spaceBetween: 20,
               },
             }}
             modules={[Navigation, Pagination]}
@@ -51,6 +56,7 @@ const Projects = () => {
                     github_link={item.github_link}
                     website={item.website}
                     report={item.report}
+                    images={item.images}
                   />
                 </SwiperSlide>
               );

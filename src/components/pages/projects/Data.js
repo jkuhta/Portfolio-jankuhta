@@ -25,6 +25,7 @@ export const projectItems = [
     github_link: "https://github.com/fri-RINS/ROS-TurtleBot-RoboSheriff",
     website: "",
     report: ROS_pdf,
+    // images: "123",
   },
   {
     title: "BicikeLj <br/> prediction model",

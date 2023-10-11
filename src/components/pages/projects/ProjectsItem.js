@@ -12,6 +12,7 @@ function ProjectsItem({
   github_link,
   website,
   report,
+  images,
 }) {
   const [toggle, setToggle] = useState(0);
   const toggleTab = (index) => {
@@ -44,6 +45,7 @@ function ProjectsItem({
             website={website}
             report={report}
             toggleTab={toggleTab}
+            images={images}
           />
         )}
       </div>

@@ -13,6 +13,7 @@ const ProjectModal = ({
   website,
   report,
   toggleTab,
+  images,
 }) => {
   return createPortal(
     <div className="project__modal active-modal">
@@ -57,6 +58,11 @@ const ProjectModal = ({
             {report && (
               <a href={report} className="project__link-icon" download>
                 <i className="uil uil-file-download-alt"></i>
+              </a>
+            )}
+            {images && (
+              <a href={images} className="project__link-icon">
+                <i className="uil uil-images"></i>
               </a>
             )}
           </div>
