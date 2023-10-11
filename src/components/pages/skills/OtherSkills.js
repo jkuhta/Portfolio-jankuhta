@@ -10,6 +10,7 @@ const OtherSkills = () => {
     { name: "Photoshop", level: "Intermediate" },
     { name: "Illustrator", level: "Intermediate" },
     { name: "Jira", level: "Intermediate" },
+    { name: "LaTeX", level: "Intermediate" },
   ];
   return (
     <>
