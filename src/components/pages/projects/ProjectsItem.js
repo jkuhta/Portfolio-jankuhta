@@ -24,6 +24,7 @@ function ProjectsItem({
         <i className={`${icon} project__icon`}></i>
         <h3
           className="project__title"
+          onClick={() => toggleTab(1)}
           dangerouslySetInnerHTML={{ __html: title }}
         ></h3>
       </div>

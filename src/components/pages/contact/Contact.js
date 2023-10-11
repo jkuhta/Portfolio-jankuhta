@@ -65,7 +65,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact__content">
-            <h3 className="contact__title">Write me your project</h3>
+            <h3 className="contact__title">Write me a message</h3>
             <form className="contact__form " ref={form} onSubmit={sendEmail}>
               <div className="contact__form-div">
                 <label className="contact__form-tag">Name</label>
@@ -92,7 +92,7 @@ const Contact = () => {
                   cols="30"
                   rows="10"
                   className="contact__form-input"
-                  placeholder="Write your project"
+                  placeholder="Write your message"
                 ></textarea>
               </div>
               <button
