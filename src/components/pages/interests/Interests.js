@@ -51,12 +51,12 @@ const Interests = () => {
                   key={item.id}
                   onClick={() => toggleTab(item.id)}
                 >
-                  <h3 className="interest__title interest__title-small">
+                  <div className="interest__title interest__title-small">
                     <i
                       className={`${item.icon} interest__icon interest__icon-small`}
                     ></i>
                     <span className="interest__title-text">{item.title}</span>
-                  </h3>
+                  </div>
                 </div>
               </div>
               <div>

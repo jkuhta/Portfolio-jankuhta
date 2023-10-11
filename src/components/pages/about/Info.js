@@ -15,9 +15,9 @@ const Info = () => {
           <span className="about__subtitle">Slovenia</span>
         </div>
         <div className="about__box">
-          <i className="uil uil-check-circle about__icon"></i>
-          <h3 className="about__title">Completed</h3>
-          <span className="about__subtitle">7+ projects</span>
+          <i className="uil uil-globe about__icon"></i>
+          <h3 className="about__title">Languages</h3>
+          <span className="about__subtitle">SLO, ENG, GER, CRO</span>
         </div>
 
         <div className="about__box">
@@ -31,9 +31,9 @@ const Info = () => {
           <span className="about__subtitle">Bachlor's degree TBA</span>
         </div>
         <div className="about__box">
-          <i className="uil uil-globe about__icon"></i>
-          <h3 className="about__title">Support</h3>
-          <span className="about__subtitle">Online 24/7</span>
+          <i className="uil uil-check-circle about__icon"></i>
+          <h3 className="about__title">Completed</h3>
+          <span className="about__subtitle">7+ projects</span>
         </div>
       </div>
     </>
