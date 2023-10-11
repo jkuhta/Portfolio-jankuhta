@@ -6,6 +6,9 @@ const OtherSkills = () => {
     { name: "C", level: "Intermediate" },
     { name: "C++", level: "Basic" },
     { name: "Docker", level: "Basic" },
+    { name: "Git", level: "Intermediate" },
+    { name: "Photoshop", level: "Intermediate" },
+    { name: "Illustrator", level: "Intermediate" },
     { name: "Jira", level: "Intermediate" },
   ];
   return (

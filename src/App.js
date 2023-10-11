@@ -1,18 +1,18 @@
 import "./App.css";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
-// import Home from "./components/pages/home/Home";
-// import About from "./components/pages/about/About";
-// import Skills from "./components/pages/skills/Skills";
+import Home from "./components/pages/home/Home";
+import About from "./components/pages/about/About";
+import Skills from "./components/pages/skills/Skills";
 // import Services from "./components/pages/services/Services";
-// import Qualification from "./components/pages/qualification/Qualification";
-// import Interests from "./components/pages/interests/Interests";
+import Qualification from "./components/pages/qualification/Qualification";
+import Interests from "./components/pages/interests/Interests";
 // import Testimonials from "./components/pages/testimonials/Testimonials";
-// import Contact from "./components/pages/contact/Contact";
-// import Projects from "./components/pages/projects/Projects";
+import Contact from "./components/pages/contact/Contact";
+import Projects from "./components/pages/projects/Projects";
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/Scrollup";
-import Tba from "./components/pages/tba/Tba";
+// import Tba from "./components/pages/tba/Tba";
 
 function App() {
   return (
@@ -26,16 +26,16 @@ function App() {
       </Router> */}
       <Header />
       <main className="main">
-        <Tba />
-        {/* <Home></Home>
-        // <About></About>
-        // <Skills></Skills>
-        // <Services />
-        // <Projects />
-        // <Qualification />
-        // <Interests />
-        // <Testimonials />
-        <Contact /> */}
+        {/* <Tba /> */}
+        <Home></Home>
+        <About></About>
+        <Skills></Skills>
+        {/* <Services /> */}
+        <Qualification />
+        <Projects />
+        <Interests />
+        {/* <Testimonials /> */}
+        <Contact />
       </main>
       <Footer />
       <Scrollup />

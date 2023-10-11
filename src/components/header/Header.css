@@ -23,11 +23,11 @@ header {
 }
 
 .nav__logo-img {
-  background-image: url(../../../public/images/logo-2-transparent.png);
+  background-image: url(../../../public/images/logo5.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 4rem;
+  height: 4.5rem;
   width: 7rem;
 }
 
@@ -119,6 +119,10 @@ header {
     bottom: 0px;
   }
 
+  .header #interests_header {
+    display: none;
+  }
+
   .nav__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -154,8 +158,8 @@ header {
   }
 
   .nav__logo-img {
-    height: 3rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 4.5rem;
   }
 }
 

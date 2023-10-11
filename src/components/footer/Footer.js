@@ -8,12 +8,16 @@ const Footer = () => {
       name: "About",
     },
     {
-      href: "#portfolio",
-      name: "Projects",
+      href: "#skills",
+      name: "Skills",
     },
     {
-      href: "#testimonial",
-      name: "Testimonials",
+      href: "#qualification",
+      name: "Qualification",
+    },
+    {
+      href: "#projects",
+      name: "Projects",
     },
   ];
   const socialLinks = [
@@ -39,7 +43,11 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="footer__container container">
-          <h1 className="footer__title">Jan Kuhta</h1>
+          <div className="footer__logo-img"></div>
+          <a href="#home" className="">
+            <img src="./images/logo5.png" alt="" className="footer__logo-img" />
+          </a>
+
           <ul className="footer__list">
             {footerLinks.map((link, index) => (
               <li key={index}>

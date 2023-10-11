@@ -19,12 +19,12 @@ const Qualification = () => {
       type: 0,
     },
 
-    {
-      title: "Data Science Master",
-      subtitle: "TBA",
-      duration: "2024 - Future",
-      type: 1,
-    },
+    // {
+    //   title: "Data Science Master",
+    //   subtitle: "TBA",
+    //   duration: "2024 - Future",
+    //   type: 1,
+    // },
   ];
   const experienceItems = [
     {
@@ -40,12 +40,12 @@ const Qualification = () => {
       duration: "2022 - 2023",
       type: 0,
     },
-    {
-      title: "Future Job Intern",
-      subtitle: "TBA",
-      duration: "2023 - Future",
-      type: 1,
-    },
+    // {
+    //   title: "Future Job Intern",
+    //   subtitle: "TBA",
+    //   duration: "2023 - Future",
+    //   type: 1,
+    // },
   ];
 
   const [toggle, setToggle] = useState(1);

@@ -4,12 +4,11 @@ import "./Skills.css";
 const FrontendSkills = () => {
   const skillsData = [
     { name: "HTML", level: "Intermediate" },
-    { name: "css", level: "Intermediate" },
+    { name: "CSS", level: "Intermediate" },
     { name: "JavaScript", level: "Advanced" },
     { name: "React", level: "Intermediate" },
     { name: "TypeScript", level: "Basic" },
     { name: "Angular", level: "Basic" },
-    { name: "Git", level: "Advanced" },
   ];
   return (
     <>

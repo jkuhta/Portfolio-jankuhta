@@ -88,7 +88,7 @@
 .swiper-pagination-bullet-active {
   background-color: var(--title-color) !important;
 }
-.swiper-button-prev {
+.interest .swiper-button-prev {
   color: var(--text-color) !important;
   margin-top: 0 !important;
   top: auto !important;
@@ -96,7 +96,7 @@
   padding: 20px !important;
 }
 
-.swiper-button-next {
+.interest .swiper-button-next {
   color: var(--text-color) !important;
   margin-top: 0 !important;
   top: auto !important;

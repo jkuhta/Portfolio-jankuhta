@@ -1,5 +1,5 @@
 import Image1 from "../../../assets/testemonial-1.webp";
-import Image2 from "../../../assets/testemonial-2.avif";
+import Image2 from "../../../assets/testemonial-2.jpeg";
 import Image3 from "../../../assets/testemonial-3.jpeg";
 
 export const Data = [
