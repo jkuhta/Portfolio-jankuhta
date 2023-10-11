@@ -44,7 +44,7 @@ function Header() {
       href: "#interests",
       icon: "water",
       name: "Interests",
-      id: "interests",
+      id: "interests_header",
     },
     {
       href: "#contact",
