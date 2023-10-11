@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import "./Qualification.css";
 import QualificationContent from "./QualificationContent";
 
-const Qualification = () => {
+const Qualification = ({ toggleTab, toggle }) => {
   const educationItems = [
     {
       title: "High School",
@@ -48,10 +47,6 @@ const Qualification = () => {
     // },
   ];
 
-  const [toggle, setToggle] = useState(1);
-  const toggleTab = (index) => {
-    setToggle(index);
-  };
   return (
     <>
       <section className="qualification section" id="qualification">

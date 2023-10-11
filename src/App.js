@@ -13,8 +13,16 @@ import Projects from "./components/pages/projects/Projects";
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/Scrollup";
 // import Tba from "./components/pages/tba/Tba";
+import { useState } from "react";
 
 function App() {
+  document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });
+  const [toggle, setToggle] = useState(1);
+  const toggleTab = (index) => {
+    setToggle(index);
+  };
   return (
     <>
       {/* <Router>
@@ -28,10 +36,10 @@ function App() {
       <main className="main">
         {/* <Tba /> */}
         <Home></Home>
-        <About></About>
+        <About toggleTab={toggleTab}></About>
         <Skills></Skills>
         {/* <Services /> */}
-        <Qualification />
+        <Qualification toggleTab={toggleTab} toggle={toggle} />
         <Projects />
         <Interests />
         {/* <Testimonials /> */}

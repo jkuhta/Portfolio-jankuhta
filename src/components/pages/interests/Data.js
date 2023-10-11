@@ -1,11 +1,11 @@
-import Image1 from "../../../assets/interest.jpeg";
-import Image2 from "../../../assets/interest-action.jpeg";
+import Image1 from "../../../assets/drone1.jpg";
+import Image2 from "../../../assets/gopro.jpg";
 import img_basketball from "../../../assets/basketball.jpeg";
-import img_dslr from "../../../assets/dslr.jpeg";
-import img_guitar from "../../../assets/guitar.webp";
-import img_kite from "../../../assets/kitesurfing.jpg";
-import img_piano from "../../../assets/piano.webp";
-import img_snow from "../../../assets/snowboarding.jpeg";
+import img_landscape from "../../../assets/landscape.jpg";
+import img_guitar from "../../../assets/guitar.jpg";
+import img_kite from "../../../assets/kite.jpg";
+import img_piano from "../../../assets/piano.jpg";
+import img_snow from "../../../assets/snow.jpg";
 
 export const interestItems = [
   {
@@ -19,11 +19,11 @@ export const interestItems = [
       },
       {
         image: Image2,
-        subtitle: "Action Photography",
+        subtitle: "GoPro Photography",
       },
       {
-        image: img_dslr,
-        subtitle: "DSLR Photography",
+        image: img_landscape,
+        subtitle: "Landscape Photography",
       },
     ],
   },
@@ -52,12 +52,12 @@ export const interestItems = [
     icon: "uil uil-music",
     subItems: [
       {
-        image: img_piano,
-        subtitle: "Piano",
-      },
-      {
         image: img_guitar,
         subtitle: "Guitar",
+      },
+      {
+        image: img_piano,
+        subtitle: "Piano",
       },
     ],
   },

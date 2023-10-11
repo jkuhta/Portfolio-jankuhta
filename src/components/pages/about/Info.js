@@ -1,6 +1,6 @@
 import React from "react";
 
-const Info = () => {
+const Info = ({ toggleTab }) => {
   return (
     <>
       <div className="about__info grid">
@@ -20,21 +20,29 @@ const Info = () => {
           <span className="about__subtitle">SLO, ENG, GER, CRO</span>
         </div>
 
-        <div className="about__box">
+        <a
+          href="#qualification"
+          className="about__box "
+          onClick={() => toggleTab(2)}
+        >
           <i className="uil uil-briefcase-alt about__icon"></i>
           <h3 className="about__title">Experience</h3>
           <span className="about__subtitle">1 Year Working</span>
-        </div>
-        <div className="about__box">
+        </a>
+        <a
+          href="#qualification"
+          className="about__box"
+          onClick={() => toggleTab(1)}
+        >
           <i className="uil uil-medal about__icon"></i>
           <h3 className="about__title">Education</h3>
           <span className="about__subtitle">Bachlor's degree TBA</span>
-        </div>
-        <div className="about__box">
+        </a>
+        <a href="#projects" className="about__box">
           <i className="uil uil-check-circle about__icon"></i>
           <h3 className="about__title">Completed</h3>
           <span className="about__subtitle">8+ projects</span>
-        </div>
+        </a>
       </div>
     </>
   );
