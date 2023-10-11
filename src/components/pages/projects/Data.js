@@ -7,7 +7,7 @@ export const projectItems = [
     title: "ROS TurtleBot <br/> RoboSheriff",
     modalTitle: "ROS TurtleBot RoboSheriff",
     description:
-      "In this project we built an intelligent and robust coherent system using ROS and TurtleBot. The robot had to navigate through the poligon, extract information and find the robber.",
+      "In this project we built an intelligent and robust coherent system using ROS and TurtleBot. The robot had to navigate through the poligon, extract information from the environment, process data and find the robber.",
     projectData: [
       "Autonomous control of the mobile platform",
       "Acquiring images and 3D information",
@@ -129,6 +129,23 @@ export const projectItems = [
     labels: ["Blender", "React", "Three.js"],
     github_link: "https://github.com/jkuhta/3d-model-showcase-web",
     website: "https://3d-model-showcase.pages.dev",
+    report: "",
+  },
+  {
+    title: "GIF <br/> Gallery",
+    modalTitle: "Gif Gallery",
+    description:
+      "In this project a creted a few GIFs with Adobe Photoshop and Adobe Illustrator and displayed them in a simple React App. GIFs follow principles of Color Theory.",
+    projectData: [
+      "Base GIF images creation with Adobe Illustrator",
+      "Creating GIFs in Adobe Photoshop",
+      "Use of principles of color theory",
+      "Frontend web developement using React",
+    ],
+    icon: "bx bxs-paint",
+    labels: ["Adobe Photoshop", "Adobe Illustrator", "React"],
+    github_link: "https://github.com/jkuhta/Gif-Gallery",
+    website: "https://gif-gallery-2ck.pages.dev",
     report: "",
   },
 ];

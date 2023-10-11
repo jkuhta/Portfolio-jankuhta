@@ -200,23 +200,27 @@
 .project .swiper-button-prev {
   color: var(--text-color) !important;
   left: 0 !important;
+  transition: 0.3s;
 }
 
 .project .swiper-button-next {
   color: var(--text-color) !important;
   right: 0 !important;
+  transition: 0.3s;
 }
 
 .project .swiper-button-prev:hover {
   color: var(--text-color) !important;
   left: 0 !important;
   transform: scale(1.2) !important;
+  transition: 0.3s;
 }
 
 .project .swiper-button-next:hover {
   color: var(--text-color) !important;
   right: 0 !important;
   transform: scale(1.2) !important;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 992px) {
