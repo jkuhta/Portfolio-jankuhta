@@ -68,11 +68,20 @@
     grid-template-columns: 1fr;
   }
 
+  .skills__group {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .skills__content {
     padding: 1.5rem;
   }
 }
 /* For small devices */
+/* For medium devices */
+@media screen and (max-width: 450px) {
+  .skills__group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 350px) {
   .skills__box {
     column-gap: 1.25rem;

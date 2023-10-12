@@ -106,6 +106,15 @@
 
 @media screen and (max-width: 576px) {
   .qualification__sections {
+    grid-template-columns: 0.7fr;
+  }
+
+  .qualification__button {
+    margin: 0 var(--mb-0-75);
+  }
+}
+@media screen and (max-width: 450px) {
+  .qualification__sections {
     grid-template-columns: initial;
   }
 
