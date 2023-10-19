@@ -148,4 +148,21 @@ export const projectItems = [
     website: "https://gif-gallery-2ck.pages.dev",
     report: "",
   },
+  {
+    title: "PNPPLS <br/> Clothing Website",
+    modalTitle: "PNPPLS Clothing Website",
+    description:
+      "In this project I created a website for PNPPLS Clothing. I used React JS. The brand is not existing, only for website developement purposes.",
+    projectData: [
+      "Frontend web developement using React",
+      "Responsive, dynamic webpage",
+      "UI/UX design",
+      "Deployment on Cloudfare Pages",
+    ],
+    icon: "fa-solid fa-shirt",
+    labels: ["ReactJS", "JavaScript", "HTML", "CSS"],
+    github_link: "https://github.com/jkuhta/pnppls-clothing",
+    website: "https://pnppls-clothing.pages.dev",
+    report: "",
+  },
 ];
