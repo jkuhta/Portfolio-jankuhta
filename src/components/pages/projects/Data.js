@@ -161,8 +161,8 @@ export const projectItems = [
     ],
     icon: "fa-solid fa-shirt",
     labels: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    github_link: "https://pnppls-clothing.pages.dev",
-    website: "https://github.com/jkuhta/pnppls-clothing",
+    github_link: "https://github.com/jkuhta/pnppls-clothing",
+    website: "https://pnppls-clothing.pages.dev",
     report: "",
   },
 ];
