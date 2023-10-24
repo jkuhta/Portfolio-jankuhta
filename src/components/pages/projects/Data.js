@@ -28,7 +28,7 @@ export const projectItems = [
     // images: "123",
   },
   {
-    title: "BicikeLj <br/> prediction model",
+    title: "BicikeLj <br/> Prediction Model",
     modalTitle: "BicikeLj prediction model",
     description:
       "In this project I created a prediction model for number of bicycles on several public bicycle stations in Ljubljana. For train set I used real Bicikelj history data for timestamps in intervals of 5 minutes.",
@@ -47,7 +47,24 @@ export const projectItems = [
     report: Bicikelj_pdf,
   },
   {
-    title: "Freestyle.si <br/> Excel manipulator",
+    title: "Website <br/> PNPPLS Clothing",
+    modalTitle: "PNPPLS Clothing Website",
+    description:
+      "In this project I created a website for PNPPLS Clothing. I used React JS. The brand is not existing, only for website developement purposes.",
+    projectData: [
+      "Frontend web developement using React",
+      "Responsive, dynamic webpage",
+      "UI/UX design",
+      "Deployment on Cloudfare Pages",
+    ],
+    icon: "fa-solid fa-shirt",
+    labels: ["ReactJS", "JavaScript", "HTML", "CSS"],
+    github_link: "https://github.com/jkuhta/pnppls-clothing",
+    website: "https://pnppls-clothing.pages.dev",
+    report: "",
+  },
+  {
+    title: "Excel Manipulator <br/> Freestyle.si",
     modalTitle: "Freestyle.si Excel manipulator",
     description:
       "In this project I created 2 python scripts for manipulating with excel sheets. Demolition and Remaster are two main goals of this project for a specific task with specific excel inputs requested by Freestyle.si",
@@ -80,7 +97,7 @@ export const projectItems = [
     report: "",
   },
   {
-    title: "Price Comparer <br/> microservice",
+    title: "Microservice <br/> Price Comparer",
     modalTitle: "Price Comparer microservice",
     description:
       "In this project we created a microservice for a Price Comparison System. The whole backend was build with Java. Microservice can be used via exposed APIs.",
@@ -96,7 +113,7 @@ export const projectItems = [
     report: "",
   },
   {
-    title: "Bodyfat % <br/> prediction model",
+    title: "Bodyfat % <br/> Prediction Model",
     modalTitle: "BodyFat percentage prediction model",
     description:
       "In this project we created and learned a simple regression prediction model. We used different body measures to predict body fat percentage.",
@@ -146,23 +163,6 @@ export const projectItems = [
     labels: ["Adobe Photoshop", "Adobe Illustrator", "React"],
     github_link: "https://github.com/jkuhta/Gif-Gallery",
     website: "https://gif-gallery-2ck.pages.dev",
-    report: "",
-  },
-  {
-    title: "PNPPLS <br/> Clothing Website",
-    modalTitle: "PNPPLS Clothing Website",
-    description:
-      "In this project I created a website for PNPPLS Clothing. I used React JS. The brand is not existing, only for website developement purposes.",
-    projectData: [
-      "Frontend web developement using React",
-      "Responsive, dynamic webpage",
-      "UI/UX design",
-      "Deployment on Cloudfare Pages",
-    ],
-    icon: "fa-solid fa-shirt",
-    labels: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    github_link: "https://github.com/jkuhta/pnppls-clothing",
-    website: "https://pnppls-clothing.pages.dev",
     report: "",
   },
 ];
