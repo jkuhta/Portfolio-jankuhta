@@ -27,7 +27,7 @@ const Info = ({ toggleTab }) => {
         >
           <i className="uil uil-briefcase-alt about__icon"></i>
           <h3 className="about__title">Experience</h3>
-          <span className="about__subtitle">1 Year Working</span>
+          <span className="about__subtitle">2 Years Working</span>
         </a>
         <a
           href="#qualification"

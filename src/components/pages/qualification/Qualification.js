@@ -29,7 +29,7 @@ const Qualification = ({ toggleTab, toggle }) => {
     {
       title: "Bike retail sales",
       subtitle: "Freestyle d.o.o",
-      duration: "2020 - 2020",
+      duration: "2020 - 2021",
       type: 1,
     },
 

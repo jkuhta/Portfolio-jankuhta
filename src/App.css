@@ -5,8 +5,9 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+  /* ========== Colors ==========
   /*Color mode HSL(hue, saturation, lightness)*/
+
   --hue: 208.84;
   --sat: 58.08%;
   /* --hue: 0;
