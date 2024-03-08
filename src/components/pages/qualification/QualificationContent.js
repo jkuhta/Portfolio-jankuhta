@@ -18,6 +18,11 @@ const QualificationContent = ({ qualificationItems, status }) => {
           <div>
             <h3 className="qualification__title">{item.title}</h3>
             <span className="qualification__subtitle">{item.subtitle}</span>
+            {item.award && (
+              <div className="qualification__award">
+                <i className="bx bx-award"></i> {item.award}
+              </div>
+            )}
             <div className="qualification__calendar">
               <i className="uil uil-calendar-alt"></i> {item.duration}
             </div>

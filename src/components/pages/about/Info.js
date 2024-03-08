@@ -36,7 +36,7 @@ const Info = ({ toggleTab }) => {
         >
           <i className="uil uil-medal about__icon"></i>
           <h3 className="about__title">Education</h3>
-          <span className="about__subtitle">Bachlor's degree TBA</span>
+          <span className="about__subtitle">Bachlor's degree</span>
         </a>
         <a href="#projects" className="about__box">
           <i className="uil uil-check-circle about__icon"></i>

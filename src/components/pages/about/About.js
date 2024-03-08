@@ -15,7 +15,7 @@ function About({ toggleTab }) {
           <div className="about__data">
             <Info toggleTab={toggleTab} />
             <p className="about__description">
-              As a Computer Science student with a diverse skill set, I'm eager
+              As a Computer Science graduate with a diverse skill set, I'm eager
               to explore fields of Data Science, Computer Vision and Web
               Development. Coming from a QA Engineering background, I bring a
               sharp eye for detail and a commitment to quality. I'm enthusiastic
