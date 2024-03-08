@@ -4,17 +4,18 @@ import QualificationContent from "./QualificationContent";
 const Qualification = ({ toggleTab, toggle }) => {
   const educationItems = [
     {
-      title: "High School",
-      subtitle: "II. gimnazija Maribor",
-      duration: "2015 - 2019",
-      type: 1,
-    },
-
-    {
       title: "Computer and Information Science",
       subtitle:
         "University of Ljubljana Faculty of Computer and Information Science",
-      duration: "2020 - Present",
+      duration: "2020 - 2024",
+      award: "Bachelor's Degree",
+      type: 1,
+    },
+    {
+      title: "High School",
+      subtitle: "II. gimnazija Maribor",
+      duration: "2015 - 2019",
+      award: "High School Diploma",
       type: 0,
     },
 
@@ -27,18 +28,18 @@ const Qualification = ({ toggleTab, toggle }) => {
   ];
   const experienceItems = [
     {
-      title: "Bike retail sales",
-      subtitle: "Freestyle d.o.o",
-      duration: "2020 - 2021",
-      type: 1,
-    },
-
-    {
       title: "Web QA Tester",
       subtitle: "Plume Design, inc.",
       duration: "2022 - 2023",
+      type: 1,
+    },
+    {
+      title: "Bike retail sales",
+      subtitle: "Freestyle d.o.o",
+      duration: "2020 - 2021",
       type: 0,
     },
+
     // {
     //   title: "Future Job Intern",
     //   subtitle: "TBA",
