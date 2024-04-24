@@ -7,8 +7,8 @@ const FrontendSkills = () => {
     { name: "CSS", level: "Intermediate" },
     { name: "JavaScript", level: "Advanced" },
     { name: "React", level: "Intermediate" },
-    { name: "TypeScript", level: "Basic" },
-    { name: "Angular", level: "Basic" },
+    { name: "TypeScript", level: "Intermediate" },
+    { name: "Angular", level: "Intermediate" },
   ];
   return (
     <>
