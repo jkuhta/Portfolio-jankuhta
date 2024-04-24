@@ -6,11 +6,11 @@ const Data = () => {
     <>
       <div className="home__data">
         <h1 className="home__title">Jan Kuhta</h1>
-        <h3 className="home__subtitle">Full-Stack Developer</h3>
+        <h3 className="home__subtitle">Computer Science Engineer</h3>
         <p className="home__description">
-          I'm an enthusiastic Full-Stack Developer at Medius.si, holding a
-          bachelor's degree in Computer Science, driven by a passion for
-          learning and soon embarking on a master's journey.
+          Having successfully completed my bachelor's thesis, I'm keen to
+          explore new opportunities to apply my skills and passion. Next on the
+          agenda: diving into master's studies.
         </p>
         <a href="#contact" className="button button--flex">
           Contact Me <i className="uil uil-message contact-icon"></i>
