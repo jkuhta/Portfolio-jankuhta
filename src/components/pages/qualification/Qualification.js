@@ -30,7 +30,7 @@ const Qualification = ({ toggleTab, toggle }) => {
     {
       title: "Full - Stack Developer",
       subtitle: "Medius.si",
-      duration: "2024 - Future",
+      duration: "2024 - Present",
       type: 1,
     },
     {

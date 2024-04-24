@@ -1,13 +1,19 @@
 import React from "react";
 
 const Info = ({ toggleTab }) => {
+
+  const birthDate = new Date(2000, 6, 17);
+  const today = new Date();
+  const age = today.getFullYear() - birthDate.getFullYear() -
+      (today < new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate()) ? 1 : 0);
+
   return (
     <>
       <div className="about__info grid">
         <div className="about__box">
           <i className="uil uil-user-circle about__icon"></i>
           <h3 className="about__title">Age</h3>
-          <span className="about__subtitle">23 years old</span>
+          <span className="about__subtitle">{age} years old</span>
         </div>
         <div className="about__box">
           <i className="uil uil-location-point about__icon"></i>
