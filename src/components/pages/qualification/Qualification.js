@@ -39,13 +39,12 @@ const Qualification = ({ toggleTab, toggle }) => {
       duration: "2020 - 2021",
       type: 0,
     },
-
-    // {
-    //   title: "Future Job Intern",
-    //   subtitle: "TBA",
-    //   duration: "2023 - Future",
-    //   type: 1,
-    // },
+    {
+      title: "Full-Stack Developer",
+      subtitle: "Medius.si",
+      duration: "2024 - Future",
+      type: 1,
+    },
   ];
 
   return (
