@@ -28,21 +28,21 @@ const Qualification = ({ toggleTab, toggle }) => {
   ];
   const experienceItems = [
     {
+      title: "Full - Stack Developer",
+      subtitle: "Medius.si",
+      duration: "2024 - Future",
+      type: 1,
+    },
+    {
       title: "Web QA Tester",
       subtitle: "Plume Design, inc.",
       duration: "2022 - 2023",
-      type: 1,
+      type: 0,
     },
     {
       title: "Bike retail sales",
       subtitle: "Freestyle d.o.o",
       duration: "2020 - 2021",
-      type: 0,
-    },
-    {
-      title: "Full-Stack Developer",
-      subtitle: "Medius.si",
-      duration: "2024 - Future",
       type: 1,
     },
   ];
