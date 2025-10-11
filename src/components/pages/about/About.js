@@ -15,12 +15,12 @@ function About({toggleTab}) {
                     <div className="about__data">
                         <Info toggleTab={toggleTab}/>
                         <p className="about__description">
-                            I'm a Computer Science graduate working as a Full-Stack Developer at Medius.si. I enjoy
-                            building web applications and solving problems, with experience in both frontend and backend
-                            development and a strong eye for detail from my QA Engineering background. <br/>
-                            I’m especially interested in Data Science, Computer Vision, and Web Development, and I’m
-                            always looking for ways to learn and grow. Next, I’ll be starting my master’s studies to
-                            dive deeper into these fields and take on new challenges.
+                            I'm a Computer Science master’s student at TU Delft, with previous
+                            experience as a Full-Stack Developer at Medius.si. I enjoy building web
+                            applications, tackling challenging problems, and exploring areas like
+                            Machine Learning, Computer Vision, and Web Development. I’m always
+                            looking
+                            for opportunities to learn, grow, and take on new challenges.
                         </p>
                         <div className="button__cv">
                             <a download="" href={CV} className="button button--flex">
